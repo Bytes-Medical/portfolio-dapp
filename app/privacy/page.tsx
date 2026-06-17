@@ -33,7 +33,7 @@ export default function PrivacyPage() {
   return (
     <div className="min-h-dvh">
       <Nav>
-        <Button href="/capture" className="!px-4 !py-2">
+        <Button href="/" className="!px-4 !py-2">
           Open app
         </Button>
       </Nav>
@@ -150,7 +150,7 @@ export default function PrivacyPage() {
         </Section>
 
         <div className="mt-8 flex flex-wrap gap-3">
-          <Button href="/capture">Start capturing</Button>
+          <Button href="/">Start capturing</Button>
           <Button href="/" variant="ghost">
             Back home
           </Button>

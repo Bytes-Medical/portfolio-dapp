@@ -7,7 +7,10 @@ import type { ReactNode } from "react";
  */
 export function Nav({ children }: { children?: ReactNode }) {
   return (
-    <header className="sticky top-0 z-40 bg-paper border-b border-ink">
+    <header
+      className="sticky top-0 z-40 bg-paper border-b border-ink"
+      style={{ paddingTop: "env(safe-area-inset-top)" }}
+    >
       <div className="mx-auto flex items-center justify-between gap-4 px-4 py-3 max-w-5xl">
         <Link
           href="/"

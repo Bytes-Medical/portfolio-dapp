@@ -8,6 +8,8 @@ const isStatic = process.env.BUILD_TARGET === "static";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // Hide the dev-mode overlay badge (it floats over the bottom tab bar).
+  devIndicators: false,
   ...(isStatic
     ? {
         output: "export",

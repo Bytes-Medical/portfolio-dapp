@@ -25,7 +25,10 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#FFFFFF",
+  // cover = let content extend under the notch/home indicator so the
+  // env(safe-area-inset-*) values resolve; the chrome pads itself back in.
+  viewportFit: "cover",
+  themeColor: "#FBFAF7",
 };
 
 export default function RootLayout({

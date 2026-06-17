@@ -135,7 +135,7 @@ function EmptyState({ hasAny }: { hasAny: boolean }) {
       </p>
       {!hasAny ? (
         <div className="mt-4 flex justify-center">
-          <Button href="/capture">Capture a moment</Button>
+          <Button href="/">Capture a moment</Button>
         </div>
       ) : null}
     </div>

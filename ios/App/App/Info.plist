@@ -4,6 +4,13 @@
 <dict>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Byte Portfolio uses the microphone for optional voice dictation of your reflections. Audio is transcribed to text; it is not recorded or stored.</string>
+	<!-- Allow http to localhost/.local for live-reload against the dev server.
+	     Does not weaken production HTTPS — only permits local/loopback hosts. -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
     <key>CAPACITOR_DEBUG</key>
 	<string>$(CAPACITOR_DEBUG)</string>
 	<key>CFBundleDevelopmentRegion</key>

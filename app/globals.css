@@ -61,7 +61,7 @@
   /* No border-radius anywhere; no decorative chrome (§5) */
   *, *::before, *::after { border-radius: 0 !important; }
 
-  html { -webkit-text-size-adjust: 100%; }
+  html { -webkit-text-size-adjust: 100%; height: 100%; }
 
   body {
     background: var(--paper);
@@ -71,6 +71,17 @@
     line-height: var(--lh);
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    /* Native-app feel inside the Capacitor WebView */
+    -webkit-tap-highlight-color: transparent;   /* no grey flash on tap */
+    overscroll-behavior-y: none;                 /* no rubber-band on scroll */
+  }
+
+  /* Treat chrome as app UI: no long-press callout or text-selection on nav,
+     headers and buttons. Content (text, inputs) stays selectable. */
+  header, nav, button, [role="button"] {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
 
   /* Visible keyboard focus (§5.6) */
