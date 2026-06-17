@@ -1,0 +1,37 @@
+{
+  "rules": [
+    {
+      "name": "nhs_number",
+      "pattern": "\\b\\d{3}\\s?\\d{3}\\s?\\d{4}\\b",
+      "replacement": "[NHS-NO]"
+    },
+    {
+      "name": "dob",
+      "pattern": "\\b\\d{1,2}[\\/.\\-]\\d{1,2}[\\/.\\-]\\d{2,4}\\b",
+      "replacement": "[DATE]"
+    },
+    {
+      "name": "age",
+      "pattern": "\\b\\d{1,2}[- ]?(year|yr|month|mo|week|day)s?[- ]?old\\b",
+      "replacement": "[AGE]",
+      "flags": "i"
+    },
+    {
+      "name": "postcode",
+      "pattern": "\\b[A-Z]{1,2}\\d[A-Z\\d]?\\s?\\d[A-Z]{2}\\b",
+      "replacement": "[POSTCODE]",
+      "flags": "i"
+    },
+    {
+      "name": "phone",
+      "pattern": "\\b(0\\d{9,10})\\b",
+      "replacement": "[PHONE]"
+    }
+  ],
+  "flag_only": [
+    {
+      "name": "possible_name",
+      "note": "capitalised mid-sentence tokens, titles (baby/child/Mr/Mrs/Dr + Name)"
+    }
+  ]
+}

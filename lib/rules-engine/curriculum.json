@@ -1,0 +1,824 @@
+{
+  "version": "progress-plus-core-2023-v2",
+  "source": "RCPCH Core Syllabus for Paediatric Training 2023 (Version 2, Oct 2024)",
+  "levels": [
+    "core",
+    "specialty"
+  ],
+  "domains": [
+    {
+      "id": 1,
+      "name": "Professional values and behaviours",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "1.C",
+          "text": "In addition to the professional values and behaviours required of all doctors (Good Medical Practice), a paediatric trainee must adhere to legal frameworks relating to babies, children, young people and families/carers, including relevant safeguarding legislation related to the four nations.",
+          "key_capabilities": [
+            {
+              "id": "1.C.1",
+              "text": "Demonstrates the professional values, behaviours and attitudes required of doctors (outlined in Good Medical Practice) within the scope of their knowledge, skills and performance.",
+              "keywords": [
+                "professional values",
+                "good medical practice",
+                "probity",
+                "behaviour",
+                "attitudes"
+              ]
+            },
+            {
+              "id": "1.C.2",
+              "text": "Demonstrates compassion, empathy and respect for children, young people and their families.",
+              "keywords": [
+                "compassion",
+                "empathy",
+                "respect",
+                "family",
+                "kindness"
+              ]
+            },
+            {
+              "id": "1.C.3",
+              "text": "Demonstrates self-awareness and insight, recognising their limits of capability and demonstrating commitment to continuing professional development (CPD).",
+              "keywords": [
+                "self-awareness",
+                "insight",
+                "cpd",
+                "reflection",
+                "limits",
+                "professional development"
+              ]
+            },
+            {
+              "id": "1.C.4",
+              "text": "Assesses the capacity of children and young people to make informed decisions about their medical care.",
+              "keywords": [
+                "capacity",
+                "gillick",
+                "competence",
+                "informed decision",
+                "consent"
+              ]
+            },
+            {
+              "id": "1.C.5",
+              "text": "Follows the principles of the law with regard to consent, the right to refuse treatment, confidentiality and the death of a baby, child or young person.",
+              "keywords": [
+                "consent",
+                "refuse treatment",
+                "confidentiality",
+                "law",
+                "death",
+                "ethics"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Communication",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "2.C",
+          "text": "Develops effective professional relationships with babies, children, young people and their families/carers as well as colleagues, enabling active participation in planning and implementation of care plans; this includes demonstrating listening skills, cultural awareness and sensitivity, and communicating effectively in writing through clear, legible and accurate written and digital records.",
+          "key_capabilities": [
+            {
+              "id": "2.C.1",
+              "text": "Understands the principles of participation in decision making for children, young people and their parents in the process of improving their health.",
+              "keywords": [
+                "participation",
+                "shared decision making",
+                "decision making",
+                "involvement"
+              ]
+            },
+            {
+              "id": "2.C.2",
+              "text": "Demonstrates excellent communication skills, both spoken and written (including electronic notes) with children, young people, families and colleagues.",
+              "keywords": [
+                "communication",
+                "written",
+                "electronic notes",
+                "documentation",
+                "spoken",
+                "records"
+              ]
+            },
+            {
+              "id": "2.C.3",
+              "text": "Demonstrates excellent communication and interpersonal skills to enable effective collaboration with children, young people and their families, including colleagues in multi-disciplinary teams (MDTs).",
+              "keywords": [
+                "interpersonal",
+                "collaboration",
+                "mdt",
+                "multidisciplinary",
+                "handover",
+                "teamwork"
+              ]
+            },
+            {
+              "id": "2.C.4",
+              "text": "Demonstrates courtesy and respect for different cultures and those with protected characteristics.",
+              "keywords": [
+                "cultural",
+                "protected characteristics",
+                "courtesy",
+                "diversity",
+                "equality"
+              ]
+            },
+            {
+              "id": "2.C.5",
+              "text": "Responds appropriately and empathises with children, young people and their families in dealing with conflict and/or those who are experiencing difficulty, anxiety or distress.",
+              "keywords": [
+                "conflict",
+                "empathy",
+                "distress",
+                "anxiety",
+                "breaking bad news",
+                "difficult conversation",
+                "de-escalation"
+              ]
+            },
+            {
+              "id": "2.C.6",
+              "text": "Manages the communication of a range of differential diagnoses and where the management plan will be uncertain.",
+              "keywords": [
+                "differential diagnosis",
+                "uncertainty",
+                "explaining",
+                "diagnosis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Clinical procedures",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "3.C",
+          "text": "Undertakes key paediatric clinical procedures, both elective and emergency, including responding to and leading emergency situations and performing advanced life support, recognising when and how to escalate, and adapting clinical assessments to meet the needs of babies, children, young people and families/carers.",
+          "key_capabilities": [
+            {
+              "id": "3.C.1",
+              "text": "Performs appropriate clinical assessments of a baby, child and young person.",
+              "keywords": [
+                "clinical assessment",
+                "examination",
+                "procedure"
+              ]
+            },
+            {
+              "id": "3.C.2",
+              "text": "Demonstrates achievement of both basic and advanced life support skills.",
+              "keywords": [
+                "basic life support",
+                "advanced life support",
+                "resuscitation",
+                "apls",
+                "bls",
+                "als"
+              ]
+            },
+            {
+              "id": "3.C.3",
+              "text": "Undertakes key procedures including peripheral venous cannulation, neonatal umbilical venous catheterisation (UVC), lumbar puncture and intraosseous needle insertion for emergency venous access.",
+              "keywords": [
+                "cannula",
+                "cannulation",
+                "venepuncture",
+                "umbilical",
+                "uvc",
+                "lumbar puncture",
+                "intraosseous",
+                "procedure",
+                "bloods"
+              ]
+            },
+            {
+              "id": "3.C.4",
+              "text": "Confirms the correct placement of arterial and venous lines.",
+              "keywords": [
+                "arterial line",
+                "venous line",
+                "placement",
+                "procedure"
+              ]
+            },
+            {
+              "id": "3.C.5",
+              "text": "Performs advanced paediatric airway support, including airway opening manoeuvres and the use of airway adjuncts to the point of intubation.",
+              "keywords": [
+                "airway",
+                "intubation",
+                "airway adjunct",
+                "paediatric airway",
+                "procedure"
+              ]
+            },
+            {
+              "id": "3.C.6",
+              "text": "Demonstrates neonatal airway maintenance: airway opening manoeuvres and the use of airway adjuncts (including supraglottic airway) to maintain the airway of a term or preterm baby to the point of intubation.",
+              "keywords": [
+                "neonatal airway",
+                "supraglottic",
+                "preterm",
+                "airway maintenance",
+                "neonatal",
+                "intubation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Patient management",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "4.C",
+          "text": "Conducts a clinical assessment of babies, children and young people, formulating an appropriate differential diagnosis, planning appropriate investigations and initiating a treatment plan in accordance with national and local guidelines, tailoring the management plan to meet the needs of the individual.",
+          "key_capabilities": [
+            {
+              "id": "4.C.1",
+              "text": "Performs an assessment of a baby, child or young person's physical, mental and developmental status, incorporating biological, physiological and social factors across multiple clinical contexts.",
+              "keywords": [
+                "assessment",
+                "developmental",
+                "physical",
+                "mental health",
+                "diagnosis",
+                "history",
+                "examination"
+              ]
+            },
+            {
+              "id": "4.C.2",
+              "text": "Recognises potential life-threatening events in babies, children and young people and leads resuscitation and emergency situations.",
+              "keywords": [
+                "resuscitation",
+                "life-threatening",
+                "emergency",
+                "deteriorating",
+                "acute",
+                "sepsis",
+                "arrest"
+              ]
+            },
+            {
+              "id": "4.C.3",
+              "text": "Recognises and manages a range of common childhood presentations.",
+              "keywords": [
+                "common presentations",
+                "management",
+                "diagnosis",
+                "acute"
+              ]
+            },
+            {
+              "id": "4.C.4",
+              "text": "Engages in multi-professional management of a range of common general paediatric physical and mental health presentations, both short and long term.",
+              "keywords": [
+                "multi-professional",
+                "chronic",
+                "mental health",
+                "long term",
+                "management",
+                "general paediatrics"
+              ]
+            },
+            {
+              "id": "4.C.5",
+              "text": "Recognises and manages the acute presentations and after-care of anaphylaxis, prescribing and training the family to use adrenaline autoinjectors, including documenting events and producing an emergency action plan with appropriate onward referrals.",
+              "keywords": [
+                "anaphylaxis",
+                "adrenaline",
+                "autoinjector",
+                "allergy",
+                "emergency action plan",
+                "referral"
+              ]
+            },
+            {
+              "id": "4.C.6",
+              "text": "Seeks appropriate advice and support from other teams in a timely and collaborative manner, including working effectively with colleagues in primary care.",
+              "keywords": [
+                "advice",
+                "referral",
+                "primary care",
+                "collaboration",
+                "escalation"
+              ]
+            },
+            {
+              "id": "4.C.7",
+              "text": "Takes into consideration the individual needs of the baby, child or young person.",
+              "keywords": [
+                "individual needs",
+                "holistic",
+                "patient-centred"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Health promotion and illness prevention",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "5.C",
+          "text": "Promotes healthy behaviour in conversations with children, young people and their families/carers, from early years through to adulthood, taking into account the potential impact of cultural, social, religious and economic factors on the physical and mental health of children and families.",
+          "key_capabilities": [
+            {
+              "id": "5.C.1",
+              "text": "Recognises the potential impact but also limitations of health promotion advice.",
+              "keywords": [
+                "health promotion",
+                "prevention",
+                "advice",
+                "lifestyle"
+              ]
+            },
+            {
+              "id": "5.C.2",
+              "text": "Applies knowledge of the factors which contribute to child health inequalities and the consequences of those inequalities in terms of disability, life expectancy and health economics.",
+              "keywords": [
+                "health inequalities",
+                "disability",
+                "life expectancy",
+                "health economics",
+                "deprivation"
+              ]
+            },
+            {
+              "id": "5.C.3",
+              "text": "Anticipates contextual factors (socioeconomic, cultural, psychological) which constrain the ability to make healthy choices.",
+              "keywords": [
+                "socioeconomic",
+                "healthy choices",
+                "lifestyle",
+                "cultural",
+                "psychological"
+              ]
+            },
+            {
+              "id": "5.C.4",
+              "text": "Interprets the impact of environmental, economic, global and cultural contexts on health promotion and physical and mental health illness prevention.",
+              "keywords": [
+                "environmental",
+                "climate change",
+                "global",
+                "illness prevention",
+                "public health"
+              ]
+            },
+            {
+              "id": "5.C.5",
+              "text": "Interacts effectively with children, young people and their families from a broad range of socioeconomic and cultural backgrounds, appropriately using translated materials and interpreters, if required.",
+              "keywords": [
+                "interpreter",
+                "translation",
+                "cultural",
+                "socioeconomic",
+                "communication"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Leadership and team working",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "6.C",
+          "text": "Develops personal leadership skills and demonstrates their own leadership qualities, adjusting their approach where necessary, and utilising these skills to work constructively within multi-disciplinary teams (MDTs), valuing the contributions of others.",
+          "key_capabilities": [
+            {
+              "id": "6.C.1",
+              "text": "Participates effectively and constructively in multi-disciplinary (MDT) and inter-professional teams, engaging with children, young people and families and facilitating shared decision making.",
+              "keywords": [
+                "mdt",
+                "multidisciplinary",
+                "shared decision making",
+                "team",
+                "inter-professional"
+              ]
+            },
+            {
+              "id": "6.C.2",
+              "text": "Develops leadership and team-working skills and relevant problem-solving strategies in clinical management contexts, such as where there is limitation of resources.",
+              "keywords": [
+                "leadership",
+                "teamwork",
+                "problem-solving",
+                "resources",
+                "management",
+                "prioritisation"
+              ]
+            },
+            {
+              "id": "6.C.3",
+              "text": "Supports appropriate decisions made within a team and communicates these effectively.",
+              "keywords": [
+                "decision",
+                "team",
+                "communication",
+                "support",
+                "delegation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Patient safety, including safe prescribing",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "7.C",
+          "text": "Recognises the importance of patient safety, including safe prescribing and exposure to risk/hazard.",
+          "key_capabilities": [
+            {
+              "id": "7.C.1",
+              "text": "Understands the relationship between hazards, risks of exposure and likelihood of harm.",
+              "keywords": [
+                "hazard",
+                "risk",
+                "harm",
+                "safety"
+              ]
+            },
+            {
+              "id": "7.C.2",
+              "text": "Recognises when a baby, child or young person has been exposed to a risk/hazard and escalates in accordance with local and national procedures.",
+              "keywords": [
+                "risk",
+                "hazard",
+                "escalation",
+                "escalate",
+                "safety"
+              ]
+            },
+            {
+              "id": "7.C.3",
+              "text": "Applies safety procedures to prescribing practice, demonstrating an understanding of pharmacogenomics, following local and national processes in instances of patient harm or medication error.",
+              "keywords": [
+                "prescribing",
+                "medication error",
+                "drug error",
+                "safe prescribing",
+                "pharmacogenomics"
+              ]
+            },
+            {
+              "id": "7.C.4",
+              "text": "Applies safety procedures when ordering blood, with adherence to local and national policies.",
+              "keywords": [
+                "blood",
+                "transfusion",
+                "ordering blood",
+                "safety"
+              ]
+            },
+            {
+              "id": "7.C.5",
+              "text": "Applies safety and reporting procedures to clinical care situations, responding to identified risks/hazards.",
+              "keywords": [
+                "incident",
+                "datix",
+                "reporting",
+                "risk",
+                "safety",
+                "near miss"
+              ]
+            },
+            {
+              "id": "7.C.6",
+              "text": "Applies the Duty of Candour principles to practice.",
+              "keywords": [
+                "duty of candour",
+                "candour",
+                "openness"
+              ]
+            },
+            {
+              "id": "7.C.7",
+              "text": "Recognises when the behaviours of a child or young person put themselves or others at risk of harm.",
+              "keywords": [
+                "behaviour",
+                "risk of harm",
+                "self-harm",
+                "risk",
+                "safety"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Quality improvement",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "8.C",
+          "text": "Applies quality improvement (QI) methodology to clinical practice, thereby learning and reflecting to foster positive change.",
+          "key_capabilities": [
+            {
+              "id": "8.C.1",
+              "text": "Proactively identifies opportunities for quality improvement.",
+              "keywords": [
+                "quality improvement",
+                "qi",
+                "opportunity",
+                "improvement"
+              ]
+            },
+            {
+              "id": "8.C.2",
+              "text": "Undertakes projects and audits to improve clinical effectiveness, patient safety and patient experience.",
+              "keywords": [
+                "audit",
+                "project",
+                "qip",
+                "patient safety",
+                "patient experience",
+                "clinical effectiveness",
+                "pdsa"
+              ]
+            },
+            {
+              "id": "8.C.3",
+              "text": "Participates in local clinical governance processes.",
+              "keywords": [
+                "clinical governance",
+                "governance",
+                "standards",
+                "guideline"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Safeguarding vulnerable groups",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "9.C",
+          "text": "Understands the professional responsibility of safeguarding babies, children and young people; accurately documents and raises concerns in a proficient manner to appropriate staff and agencies.",
+          "key_capabilities": [
+            {
+              "id": "9.C.1",
+              "text": "Recognises and acts upon safeguarding concerns, taking into account risk factors.",
+              "keywords": [
+                "safeguarding",
+                "child protection",
+                "risk factors",
+                "concern",
+                "welfare"
+              ]
+            },
+            {
+              "id": "9.C.2",
+              "text": "Conducts an assessment for possible maltreatment, including sexual abuse, incorporating attention to the broader family function and the child's developmental, physical and mental health status.",
+              "keywords": [
+                "maltreatment",
+                "sexual abuse",
+                "abuse",
+                "neglect",
+                "assessment"
+              ]
+            },
+            {
+              "id": "9.C.3",
+              "text": "Applies knowledge of the indications for a skeletal survey and relevant blood tests in safeguarding.",
+              "keywords": [
+                "skeletal survey",
+                "blood tests",
+                "non-accidental injury",
+                "investigation"
+              ]
+            },
+            {
+              "id": "9.C.4",
+              "text": "Documents clearly and accurately, using body charts, to record the examination results of a baby, child or young person within a safeguarding context.",
+              "keywords": [
+                "documentation",
+                "body charts",
+                "examination",
+                "safeguarding"
+              ]
+            },
+            {
+              "id": "9.C.5",
+              "text": "With supervision, provides oral or written reports for strategy meetings and case conferences, and for police or social services.",
+              "keywords": [
+                "strategy meeting",
+                "case conference",
+                "police",
+                "social services",
+                "report",
+                "section 47"
+              ]
+            },
+            {
+              "id": "9.C.6",
+              "text": "Recognises the long-term impact of adverse childhood experiences, including maltreatment, and when a child or family is vulnerable, distressed and in need of early support and intervention.",
+              "keywords": [
+                "adverse childhood experiences",
+                "aces",
+                "vulnerable",
+                "early intervention",
+                "early help"
+              ]
+            },
+            {
+              "id": "9.C.7",
+              "text": "Applies an understanding of consent and parental responsibility in relation to safeguarding procedures of looked-after children.",
+              "keywords": [
+                "looked after children",
+                "consent",
+                "parental responsibility",
+                "corporate parenting"
+              ]
+            },
+            {
+              "id": "9.C.8",
+              "text": "Applies knowledge regarding forensic assessment in relation to child abuse and establishes the importance of the chain of evidence.",
+              "keywords": [
+                "forensic",
+                "chain of evidence",
+                "child abuse",
+                "examination"
+              ]
+            },
+            {
+              "id": "9.C.9",
+              "text": "Follows the local system of referral for assessment and arranges follow-up for babies, children or young people who may have been sexually abused.",
+              "keywords": [
+                "referral",
+                "sexual abuse",
+                "follow-up",
+                "safeguarding"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Education and training",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "10.C",
+          "text": "Plans and delivers teaching and learning activities to a wide range of audiences and provides appropriate feedback to others.",
+          "key_capabilities": [
+            {
+              "id": "10.C.1",
+              "text": "Demonstrates the ability to plan and deliver teaching in a range of clinical and non-clinical contexts.",
+              "keywords": [
+                "teaching",
+                "teach",
+                "education",
+                "clinical teaching",
+                "deliver teaching",
+                "bedside teaching",
+                "teaching session",
+                "students"
+              ]
+            },
+            {
+              "id": "10.C.2",
+              "text": "Shows the ability to adapt their teaching methods to the different learning needs of individual team members.",
+              "keywords": [
+                "adapt teaching",
+                "learning needs",
+                "teaching methods",
+                "education"
+              ]
+            },
+            {
+              "id": "10.C.3",
+              "text": "Provides evidence of obtaining feedback on teaching delivered by them, and reflects on and learns from this feedback.",
+              "keywords": [
+                "feedback on teaching",
+                "reflection",
+                "evaluation",
+                "teaching"
+              ]
+            },
+            {
+              "id": "10.C.4",
+              "text": "Provides appropriate feedback to others.",
+              "keywords": [
+                "feedback",
+                "giving feedback",
+                "supervision"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Research and scholarship",
+      "learning_outcomes": [
+        {
+          "level": "core",
+          "id": "11.C",
+          "text": "Adopts an evidence-based approach to the health practices of babies, children, young people and families/carers, including critically appraising published research.",
+          "key_capabilities": [
+            {
+              "id": "11.C.1",
+              "text": "Carries out a systematic literature review, evaluating evidence and identifying strengths and weaknesses in all evidence sources.",
+              "keywords": [
+                "literature review",
+                "evidence",
+                "critical appraisal",
+                "systematic review",
+                "literature"
+              ]
+            },
+            {
+              "id": "11.C.2",
+              "text": "Interprets research results and explains the findings to children, young people, families and the multi-disciplinary team (MDT).",
+              "keywords": [
+                "research results",
+                "interpret",
+                "explaining findings",
+                "evidence"
+              ]
+            },
+            {
+              "id": "11.C.3",
+              "text": "Participates in research-related activity (e.g. national projects, journal clubs, publications and presentations).",
+              "keywords": [
+                "research",
+                "journal club",
+                "publication",
+                "presentation",
+                "poster",
+                "project",
+                "study"
+              ]
+            },
+            {
+              "id": "11.C.4",
+              "text": "Implements an evidence-based approach to practice to inform decision making and enhance patient care and patient outcomes.",
+              "keywords": [
+                "evidence-based",
+                "evidence based practice",
+                "decision making",
+                "guideline"
+              ]
+            },
+            {
+              "id": "11.C.5",
+              "text": "Constructively analyses patient management and formulates questions for the literature.",
+              "keywords": [
+                "patient management",
+                "clinical question",
+                "literature",
+                "appraisal"
+              ]
+            },
+            {
+              "id": "11.C.6",
+              "text": "Maintains Good Clinical Practice (GCP) throughout training.",
+              "keywords": [
+                "good clinical practice",
+                "gcp",
+                "research governance",
+                "ethics approval"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
