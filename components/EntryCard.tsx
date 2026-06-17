@@ -55,7 +55,7 @@ export function EntryCard({
 
   return (
     <div className="border border-ink p-3">
-      <Link href={`/review/${entry.id}`} className="block">
+      <Link href={`/review?id=${entry.id}`} className="block">
         <div className="flex items-center justify-between gap-2">
           <span className="font-ui text-[0.6875rem] tracking-[0.08em] text-ink-muted">
             {ymd(entry.createdAt)} · {(entry.entryType ?? "—").toUpperCase()}

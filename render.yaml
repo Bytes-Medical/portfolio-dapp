@@ -1,0 +1,26 @@
+# Render blueprint for the Byte Portfolio backend.
+#
+# This deploys the Next.js app in normal (server) mode so the /api routes —
+# which hold the OpenAI + ElevenLabs keys — are live. The mobile app calls this
+# service via NEXT_PUBLIC_API_BASE_URL; the web build can be served from here too.
+#
+# Set OPENAI_API_KEY and ELEVENLABS_API_KEY in the Render dashboard (sync:false
+# keeps secrets out of git). `next start` binds to Render's $PORT automatically.
+services:
+  - type: web
+    name: byte-portfolio-api
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm run start
+    healthCheckPath: /privacy
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: OPENAI_MODEL_DEFAULT
+        value: gpt-4o-mini

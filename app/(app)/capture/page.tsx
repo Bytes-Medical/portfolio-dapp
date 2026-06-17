@@ -143,7 +143,7 @@ export default function CapturePage() {
         },
       };
       await updateEntry(entryId, patch);
-      router.push(`/review/${entryId}`);
+      router.push(`/review?id=${entryId}`);
     } catch (e) {
       setSubmitting(false);
       setError(e instanceof Error ? e.message : "Something went wrong.");

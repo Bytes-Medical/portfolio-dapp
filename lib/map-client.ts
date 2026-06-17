@@ -1,4 +1,5 @@
 import type { Level, MappingResult, Overrides } from "@/lib/types";
+import { apiUrl } from "@/lib/api-base";
 
 const FALLBACK_MESSAGE =
   "Mapping failed — your note was saved. Try again, or edit and re-map.";
@@ -12,7 +13,7 @@ export async function requestMapping(input: {
   entryTypeHint?: string;
   overrides?: Overrides;
 }): Promise<MappingResult> {
-  const res = await fetch("/api/map", {
+  const res = await fetch(apiUrl("/api/map"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(input),

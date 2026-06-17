@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { CommitStrategy, useScribe } from "@elevenlabs/react";
 import { Button } from "@/components/Button";
 import { useDictation } from "@/lib/use-dictation";
+import { apiUrl } from "@/lib/api-base";
 
 type Engine = "cloud" | "webspeech";
 
@@ -33,7 +34,7 @@ export function VoiceCapture({ onCommit }: { onCommit: (text: string) => void })
   // Probe availability — reveals only a boolean, never the key.
   useEffect(() => {
     let active = true;
-    fetch("/api/stt-token")
+    fetch(apiUrl("/api/stt-token"))
       .then((r) => r.json())
       .then((d: { configured?: boolean }) => {
         if (active) setConfigured(Boolean(d?.configured));
@@ -61,7 +62,7 @@ export function VoiceCapture({ onCommit }: { onCommit: (text: string) => void })
     if (engine === "cloud") {
       setStarting(true);
       try {
-        const res = await fetch("/api/stt-token", { method: "POST" });
+        const res = await fetch(apiUrl("/api/stt-token"), { method: "POST" });
         if (!res.ok) throw new Error();
         const { token } = (await res.json()) as { token: string };
         await scribe.connect({

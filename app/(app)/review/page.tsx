@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@/components/Button";
 import { FormRow } from "@/components/FormRow";
 import { MappingCandidate } from "@/components/MappingCandidate";
@@ -22,10 +22,22 @@ function needsSupervisor(type: EntryType): boolean {
   return type !== "reflection" && type !== "other";
 }
 
+// useSearchParams must sit under a Suspense boundary for static export.
 export default function ReviewPage() {
+  return (
+    <Suspense
+      fallback={
+        <p className="font-ui text-[0.875rem] text-ink-muted">Loading…</p>
+      }
+    >
+      <ReviewInner />
+    </Suspense>
+  );
+}
+
+function ReviewInner() {
   const router = useRouter();
-  const params = useParams<{ id: string }>();
-  const id = params.id;
+  const id = useSearchParams().get("id") ?? "";
 
   const [entry, setEntry] = useState<Entry | null | undefined>(undefined);
   const [selIdx, setSelIdx] = useState(0);
@@ -38,7 +50,7 @@ export default function ReviewPage() {
   useEffect(() => {
     let active = true;
     (async () => {
-      const e = await getEntry(id);
+      const e = id ? await getEntry(id) : null;
       if (!active) return;
       setEntry(e ?? null);
       if (e) {
